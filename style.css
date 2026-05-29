@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(124, 153, 208);
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: DodgerBlue;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: yellow;
+}
