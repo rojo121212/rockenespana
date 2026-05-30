@@ -44,7 +44,7 @@ button:hover {
   background: #4f46e5;
 }
 
-.hero {
+hero {
   min-height: 320px;
   display: grid;
   place-items: center;
