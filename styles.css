@@ -52,7 +52,7 @@ hero {
   color: #fff;
   padding: 48px 24px;
   font-family: "Inter",sans-serif;
-  background-image: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)), url("images/mountains.jpg");
+  background-image: linear-gradient(rgba(15, 23, 42, 0.6), rgba(15, 23, 42, 0.6)), url(img src="https://cdn.biketours.com/assets/files/2978/pink_sky_sunset_seville_cathedral_ccbysa3alfonsoayusogarcia.1080x600.jpeg.webp");
   background-size: cover;
   background-position: center;
   border-radius: 18px;
