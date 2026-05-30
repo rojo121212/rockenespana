@@ -4,20 +4,37 @@ body {
 }
 
 header {
-    background-color: DodgerBlue;
-    padding: 20px;
-    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
 }
 
 nav a {
-    color: white;
+    display: inline-block;
+    padding: 12px 24px;
+
+    background-color: white;
+    color: rgb(70, 90, 150);
+
     text-decoration: none;
-    font-size: 18px;
+    font-weight: bold;
+
+    border-radius: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+
     transition: 0.3s;
 }
 
 nav a:hover {
-    color: yellow;
+    transform: translateY(-2px);
 }
 
 body {
