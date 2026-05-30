@@ -1,28 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-     <a href="https://rojo121212.github.io/rockenespana/">
-    My Main Website
-          <br>
-</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-     
-     
-      <br>
-     <head> 
-     <link rel="stylesheet" href="style.css">
-    ROCKY IN SPAIN 
+    <title>Rocky in Spain - My First Week</title>
 
-              <!-- Google Font -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
 
     <style>
         body {
             margin: 0;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            padding: 40px 0;
 
             background: linear-gradient(
                 135deg,
@@ -31,11 +24,14 @@
             );
 
             font-family: 'Quicksand', sans-serif;
+
+            display: flex;
+            justify-content: center;
         }
 
         .container {
+            width: 100%;
             text-align: center;
-            animation: fadeIn 1.5s ease;
         }
 
         .home-button {
@@ -51,47 +47,46 @@
 
             border-radius: 30px;
             box-shadow: 0 4px 12px rgba(0,0,0,.15);
-
-            transition: .3s;
-        }
-
-        .home-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 18px rgba(0,0,0,.2);
         }
 
         .card {
             background: rgba(255,255,255,.92);
 
             width: 85%;
-            max-width: 650px;
+            max-width: 700px;
 
+            margin: auto;
             padding: 40px;
 
             border-radius: 25px;
 
-            box-shadow:
-                0 10px 30px rgba(0,0,0,.15);
+            box-shadow: 0 10px 30px rgba(0,0,0,.15);
         }
 
         h1 {
             color: rgb(70, 90, 150);
             margin-bottom: 25px;
-            font-size: 2.5rem;
         }
 
         p {
-            font-size: 1.15rem;
-            line-height: 1.9;
+            font-size: 1.1rem;
+            line-height: 1.8;
             color: #333;
+            text-align: left;
         }
 
-          
-     </head>
-     
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
 <body>
 
- <div class="container">
+    <div class="container">
 
         <a class="home-button"
            href="https://rojo121212.github.io/rockenespana/">
@@ -100,22 +95,47 @@
 
         <div class="card">
 
-<h1>My First Week</h1>
-<p>Day 00 - Arrive (after crazy transport through Chicago, Madrid, and Sevilla airports)
-    Finally get through, meet Laura, arrive in residence, and nap!!
-    Ate dinner with classmate! 
-     <br>
-     <br>
-     Day 01 - Wake up at 6ish am, call my girlfriend. Do online doctors apt to get a quick prescription for my eye pain.
-     next, go to the farmacia for eye medication when it opens at 8 am and meet up with my peers after for breakfast.
-     Next, go to the internship center altogether, and go through our first few presentations detailing our time there.
-     Next, lunch and some socializing, then I checked another farmacia (closed for siesta) and took a nap until around 7. 
-     Woke up then and went on an adventure to el centro de la ciudad, got some gelato and a soccer jersey! then come back to the residence,
-     eat dinner, socialize some more, and watch arrested devlopment and h20 mermaids in spanish (not subbed). 
-</p>
+            <h1>My First Week</h1>
 
-<img src="https://cdn.biketours.com/assets/files/2978/pink_sky_sunset_seville_cathedral_ccbysa3alfonsoayusogarcia.1080x600.jpeg.webp" alt="W3Schools.com" width="600" height="442">
+            <p>
+                <strong>Day 00</strong> - Arrive (after crazy transport through Chicago,
+                Madrid, and Sevilla airports). Finally get through, meet Laura,
+                arrive in residence, and nap!! Ate dinner with a classmate!
+                <br><br>
 
+                <strong>Day 01</strong> - Wake up at 6ish am, call my girlfriend.
+                Do online doctor’s appointment to get a quick prescription for my eye pain.
+                Next, go to the farmacia for eye medication when it opens at 8 am and
+                meet up with my peers after for breakfast.
+
+                <br><br>
+
+                Go to the internship center altogether and sit through our first
+                presentations detailing our time there.
+
+                <br><br>
+
+                Next, lunch and some socializing, then I checked another farmacia
+                (closed for siesta) and took a nap until around 7.
+
+                <br><br>
+
+                Woke up then and went on an adventure to el centro de la ciudad,
+                got some gelato and a soccer jersey!
+
+                <br><br>
+
+                Then came back to the residence, ate dinner, socialized some more,
+                and watched Arrested Development and H2O Mermaids in Spanish
+                (not subbed).
+            </p>
+
+            <img src="https://cdn.biketours.com/assets/files/2978/pink_sky_sunset_seville_cathedral_ccbysa3alfonsoayusogarcia.1080x600.jpeg.webp"
+                 alt="Seville Cathedral at sunset">
+
+        </div>
+
+    </div>
 
 </body>
 </html>
