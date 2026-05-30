@@ -1,56 +1,154 @@
 <!DOCTYPE html>
-<html> 
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Persona Favorita</title>
 
-<a href="https://rojo121212.github.io/rockenespana/">
-    My Main Website
-</a>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
 
-
-<! sets background color >
-    <style> 
-        body {background-color:rgb(124, 153, 208);}
-    </style>
-    
-    <! border and title of page >
-    <head>
-        <title>extras</title>
-        <style>
-        p {
-            margin: 10px 10px 10px 10px;
-        }
-        </style>
-    <link rel="stylesheet" href="style.css">
-    </head>
-
-    <h1>Para mi persona favorita..</h1>
-        <style>
-        
-        </style>
-   
-    <body>
-        <div id="introduction">
-            <p> hi, if you are on this page you must be one of one, Ariel Dean. 
-                <br></br>
-                 made for a very specific person,
-            <em>drake</em>.
-            <br></br>
-            joking. it's not for drake.
-            it's for you.
-            <br></br>
-            stay tuned. 
-            <br></br>
-        </p>
-    </body>
-
-<! sets border for body >
     <style>
-        p{ border-color: rgb(0, 0, 0);
-            border-width: 2px;
-            border-style: solid;
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: linear-gradient(
+                135deg,
+                rgb(124, 153, 208),
+                rgb(170, 190, 235)
+            );
+
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        .container {
+            text-align: center;
+            animation: fadeIn 1.5s ease;
+        }
+
+        .home-button {
+            display: inline-block;
+            margin-bottom: 25px;
+            padding: 12px 24px;
+
+            background-color: white;
+            color: rgb(70, 90, 150);
+
+            text-decoration: none;
+            font-weight: bold;
+
+            border-radius: 30px;
+            box-shadow: 0 4px 12px rgba(0,0,0,.15);
+
+            transition: .3s;
+        }
+
+        .home-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 18px rgba(0,0,0,.2);
+        }
+
+        .card {
+            background: rgba(255,255,255,.92);
+
+            width: 85%;
+            max-width: 650px;
+
+            padding: 40px;
+
+            border-radius: 25px;
+
+            box-shadow:
+                0 10px 30px rgba(0,0,0,.15);
+        }
+
+        h1 {
+            color: rgb(70, 90, 150);
+            margin-bottom: 25px;
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.15rem;
+            line-height: 1.9;
+            color: #333;
+        }
+
+        .heart {
+            font-size: 2rem;
+            margin-top: 20px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.15);
+            }
+            100% {
+                transform: scale(1);
+            }
         }
     </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <a class="home-button"
+           href="https://rojo121212.github.io/rockenespana/">
+            ← Back to Main Website
+        </a>
+
+        <div class="card">
+
+            <h1>Para mi persona favorita...</h1>
+
+            <p>
+                Hi, if you're reading this, you're probably
+                the one and only Ariel Dean.
+                <br><br>
+
+                This page was made for a very specific person.
+                <br><br>
+
+                <em>Drake.</em>
+                <br><br>
+
+                Just kidding.
+                <br><br>
+
+                It's for you.
+                <br><br>
+
+                Stay tuned.
+            </p>
+
+            <div class="heart">❤️</div>
+
+        </div>
+
+    </div>
+
+</body>
 
 </html>
-
-
