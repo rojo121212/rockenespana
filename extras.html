@@ -1,154 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Para Mi Persona Favorita</title>
+    <title>Happy 3 Months ❤️</title>
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 
     <style>
-        body {
-            margin: 0;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            background: linear-gradient(
-                135deg,
-                rgb(124, 153, 208),
-                rgb(170, 190, 235)
-            );
-
-            font-family: 'Quicksand', sans-serif;
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
         }
 
-        .container {
-            text-align: center;
-            animation: fadeIn 1.5s ease;
+        body{
+            font-family:'Quicksand',sans-serif;
+            min-height:100vh;
+            background:linear-gradient(135deg,#ffd6e7,#ffeccf);
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:30px;
         }
 
-        .home-button {
-            display: inline-block;
-            margin-bottom: 25px;
-            padding: 12px 24px;
-
-            background-color: white;
-            color: rgb(70, 90, 150);
-
-            text-decoration: none;
-            font-weight: bold;
-
-            border-radius: 30px;
-            box-shadow: 0 4px 12px rgba(0,0,0,.15);
-
-            transition: .3s;
+        .card{
+            max-width:800px;
+            background:white;
+            padding:50px;
+            border-radius:25px;
+            box-shadow:0 15px 40px rgba(0,0,0,0.15);
+            text-align:center;
         }
 
-        .home-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 18px rgba(0,0,0,.2);
+        h1{
+            font-family:'Dancing Script',cursive;
+            font-size:4rem;
+            color:#ff5d8f;
+            margin-bottom:10px;
         }
 
-        .card {
-            background: rgba(255,255,255,.92);
-
-            width: 85%;
-            max-width: 650px;
-
-            padding: 40px;
-
-            border-radius: 25px;
-
-            box-shadow:
-                0 10px 30px rgba(0,0,0,.15);
+        .heart{
+            font-size:3rem;
+            animation:pulse 1.5s infinite;
         }
 
-        h1 {
-            color: rgb(70, 90, 150);
-            margin-bottom: 25px;
-            font-size: 2.5rem;
+        @keyframes pulse{
+            0%{transform:scale(1);}
+            50%{transform:scale(1.15);}
+            100%{transform:scale(1);}
         }
 
-        p {
-            font-size: 1.15rem;
-            line-height: 1.9;
-            color: #333;
+        h2{
+            margin:20px 0;
+            color:#444;
         }
 
-        .heart {
-            font-size: 2rem;
-            margin-top: 20px;
-            animation: pulse 2s infinite;
+        p{
+            font-size:1.1rem;
+            line-height:1.8;
+            color:#555;
+            margin:20px 0;
         }
 
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        .photo-frame{
+            margin:30px auto;
+            width:280px;
+            height:280px;
+            border-radius:20px;
+            overflow:hidden;
+            box-shadow:0 10px 25px rgba(0,0,0,0.15);
         }
 
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.15);
-            }
-            100% {
-                transform: scale(1);
-            }
+        .photo-frame img{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+        }
+
+        .signature{
+            margin-top:30px;
+            font-family:'Dancing Script',cursive;
+            font-size:2rem;
+            color:#ff5d8f;
+        }
+
+        .date{
+            margin-top:10px;
+            color:#888;
         }
     </style>
 </head>
-
 <body>
 
-    <div class="container">
+    <div class="card">
 
-        <a class="home-button"
-           href="https://rojo121212.github.io/rockenespana/">
-            ← Back to Main Website
-        </a>
+        <div class="heart">❤️</div>
 
-        <div class="card">
+        <h1>Happy 3 Months!</h1>
 
-            <h1>Para mi persona favorita...</h1>
+        <h2>To My Favorite Person</h2>
 
-            <p>
-                Hi, if you're reading this, you're probably
-                the one and only Ariel Dean.
-                <br><br>
+        <div class="photo-frame">
+            <img src="images/us.jpg" alt="Us Together">
+        </div>
 
-                This page was made for a very specific person.
-                <br><br>
+        <p>
+            Three months may not seem like a long time,
+            but every day with you has become one of my favorite memories.
+            Thank you for all the laughter, the support, the adventures,
+            and the countless moments that make life brighter.
+        </p>
 
-                <em>Drake.</em>
-                <br><br>
+        <p>
+            You've made these past three months unforgettable,
+            and I can't wait to see what memories we create next.
+            No matter where life takes us, I hope we keep collecting
+            moments together, one day at a time.
+        </p>
 
-                Just kidding.
-                <br><br>
+        <p>
+            Thank you for being you. ❤️
+        </p>
 
-                It's for you.
-                <br><br>
+        <div class="signature">
+            Love Always,
+            <br>
+            Your Favorite Person
+        </div>
 
-                Stay tuned.
-            </p>
-
-            <div class="heart">❤️</div>
-
+        <div class="date">
+            Happy 3 Month Anniversary ✨
         </div>
 
     </div>
 
 </body>
-
 </html>
